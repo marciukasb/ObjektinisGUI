@@ -56,3 +56,10 @@ body {
      padding-left: 0px !important;
  }
 
+.spell {
+    position: absolute;
+    top: 53px;
+    height: 20px;
+    z-index: -1;
+}
+
