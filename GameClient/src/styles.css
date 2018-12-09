@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+.space {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.cli {
+    cursor:pointer;
+}
+
+.container {
+    padding-right: 0px !important;
+    padding-left: 0px !important; 
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+#artiststhumbnail a img {
+    display:block;
+    margin:auto;
+}
+
+
+body {
+    /* padding-top: 50px; */
+  }
+  .block{
+    height:380px;  
+  }
+  .bg-image {
+    padding-top: 515px;
+      background-image: url(https://i.ytimg.com/vi/Sv8HPkt-RaY/maxresdefault.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.75;
+      background-color: bisque;
+      height: 100vh;
+  }
+  
+  /* .borders {
+      margin-left:-70px;
+      border-radius: 5px 5px 5px 5px;
+      -moz-border-radius: 5px 5px 5px 5px;
+      -webkit-border-radius: 5px 5px 5px 5px;
+      border: 1px solid #000000;
+      width:45px
+  }   */
+
+ .row {
+    flex-wrap: nowrap !important; 
+ }
+
+ .cell {
+     max-width: 1% !important;
+     padding-right: 0px !important;
+     padding-left: 0px !important;
+ }
+
