@@ -40,7 +40,7 @@ namespace GraphicalInterface
            var flyWeightWatch = System.Diagnostics.Stopwatch.StartNew();
             for (var i = 0; i < 100000; i++)
             {
-                var housePaint = PaintObjectsFactory.GetPaint("HousePaint");
+                var housePaint = PaintObjectsFactory.GetPaint("RockPaint");
                 housePaint.Draw(e.Graphics, random.Next(100), random.Next(100),
                  random.Next(100), random.Next(100));
             }
