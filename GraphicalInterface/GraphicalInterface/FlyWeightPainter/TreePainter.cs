@@ -1,7 +1,9 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 
 namespace GraphicalInterface.FlyWeightPainter
 {
+    [Serializable]
     public class TreePainter : IPainter
     {
         public static int ObjectCounter;

@@ -1,10 +1,12 @@
 ﻿using System.Drawing;
+using System.Runtime.InteropServices;
 
 namespace GraphicalInterface.SimpleMapPainter
 {
     public class SimpleTreePainter : IMapPainter
     {
         public static int ObjectCounter;
+        public static double MemoryUsage;
 
         private readonly Brush paintBrush;
 
@@ -21,6 +23,7 @@ namespace GraphicalInterface.SimpleMapPainter
             Width = width;
             Height = height;
 
+          //  MemoryUsage += Marshal.SizeOf(this);
             ++ObjectCounter;
         }
         public void Draw(Graphics g)

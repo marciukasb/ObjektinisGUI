@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace GraphicalInterface.FlyWeightPainter
 {
+    [Serializable]
     public class PaintObjectsFactory
     {
         static Dictionary<string, IPainter> paints = new Dictionary<string, IPainter>();

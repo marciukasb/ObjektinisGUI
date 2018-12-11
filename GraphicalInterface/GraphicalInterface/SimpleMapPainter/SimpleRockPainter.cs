@@ -1,10 +1,14 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
+using System.Runtime.InteropServices;
 
 namespace GraphicalInterface.SimpleMapPainter
 {
+    [Serializable]
     public class SimpleRockPainter : IMapPainter
     {
         public static int ObjectCounter;
+        public static int MemoryUsage;
 
         private readonly Brush paintBrush;
 
@@ -20,6 +24,7 @@ namespace GraphicalInterface.SimpleMapPainter
             Y = y;
             Width = width;
             Height = height;
+         //   MemoryUsage += Marshal.SizeOf(this);
 
             ++ObjectCounter;
         }
