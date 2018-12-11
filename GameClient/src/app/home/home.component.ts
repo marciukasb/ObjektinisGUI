@@ -37,6 +37,8 @@ export class HomeComponent implements OnInit {
         if (event.key === "e") {
             this.castSpell("");
         }
+
+        this.character = `/assets/character/${this.direction}/character.gif`;
         this.hide[this.CharacterPossition] = false;
     }
 
