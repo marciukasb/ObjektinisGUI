@@ -11,7 +11,7 @@ namespace GraphicalInterface
 
         /// <summary>
         /// Clean up any resources being used.
-        /// </summary>
+        /// </summary>6
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
